@@ -1,6 +1,8 @@
-function skillMember() {
-  return {
-    restrict: 'E',
-    templateUrl: 'skill-member.html'
-  };
+function skillsMember() {
+    return {
+        restrict: 'E',
+        templateUrl: 'app/components/skills/skills-member.html',
+        controller: 'SkillsMemberController',
+        controllerAs: 'skillsMemberCtrl'
+    };
 }
